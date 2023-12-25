@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import axios from "axios";
-import CocktailList from "../components/CocktailList";
+import CocktailList from "../../Components/CoctailList/CoctailList";
+
 
 const HomePage=()=> {
 

@@ -1,4 +1,5 @@
-import CocktailCard from "./CocktailCard";
+import CocktailCard from "../CoctailCard/CoctailCard";
+
 
 const CocktailList=({cocktails})=> {
     return (
@@ -10,8 +11,7 @@ const CocktailList=({cocktails})=> {
                             key={cocktail.idDrink}
                             className={'col-3'}
                         >
-                            <CocktailCard cocktail={cocktail}/>
-                        </div>
+                            <CocktailCard cocktail={cocktail}/></div>
                     )
                 }
             </div>

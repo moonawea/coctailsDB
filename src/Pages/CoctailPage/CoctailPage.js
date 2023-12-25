@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom";
 import axios from "axios";
 import IngredientList from "../../Components/IngredientList/IngredientList";
 
-const CoctailsPage = () => {
+const CoctailPage = () => {
     const {idDrink} = useParams()
     const [cocktail, setCocktail] = useState({})
     const [ingredients, setIngredients] = useState([])
@@ -50,4 +50,4 @@ const CoctailsPage = () => {
     );
 };
 
-export default CoctailsPage;
+export default CoctailPage;
